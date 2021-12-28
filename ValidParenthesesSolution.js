@@ -19,3 +19,11 @@
     return stack.length ? false : true
    };
    
+/*
+
+- Create a hash (map) in order to identify the pairs
+- In this hash (map) the closing brackets are associated with thier opening brackets
+- When a closing bracket in the string matches with one of the keys of the hash (map), then its corresponding value will get removed from the top of the stack
+- If there is a mismatch, the return will be false
+
+*/
