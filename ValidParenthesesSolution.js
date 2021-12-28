@@ -3,6 +3,10 @@
  * @return {boolean}
  */
  var isValid = function(s) {
-    
+    let map = {
+        ")": "(",
+        "}": "{",
+        "]": "["
+    }
    };
    
