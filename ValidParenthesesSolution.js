@@ -16,5 +16,6 @@
             stack.pop()
         } else return false;
     }
+    return stack.length ? false : true
    };
    
